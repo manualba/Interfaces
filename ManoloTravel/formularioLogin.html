@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<title>Formulario Login</title>
+		<link rel="stylesheet" type="text/css" href="loginCSS.css">
+	</head>
+	<body>
+		<h1>Login</h1>
+		<br><br>
+		<fieldset>
+		<form>
+			<legend><h3>Datos personales</h3></legend>
+			  <hr><br>
+			  <label id="form">Usuario:<br> <input type="text" name="usuario" size="40"></label>
+			  <br><br>
+			 <label id="form">Contraseña:<br> <input type="password" name="pass" size="40"></label>
+			  <br><br>
+			  <label id="form">No soy un robot<input type="checkbox" name="check" value="box">  </label>
+			  <label id="form">
+			  	<br><br>
+			  	---Pregunta de seguridad---
+		  		<br>¿Como se llama tu perro?<br>
+			  	<select>
+				  <option value="---">--Selecciona una respuesta--</option>
+				  <option value="rex">Rex</option>
+				  <option value="tano">Tano</option>
+				  <option value="juan">Juan</option>
+				</select>
+			  </label>
+			  <br>
+		</form>
+		</fieldset>
+		<br>
+		<form action="index.html" method="get">
+			<label>
+			  <input type="submit" name="enviar" id="login" value="Logearte">
+			</label>
+		</form>
+
+	</body> 
+</html>

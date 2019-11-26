@@ -1,0 +1,31 @@
+body{
+	background:url(https://images7.alphacoders.com/380/380582.png)
+}
+
+h1{
+	text-align: center;
+	font-family: sans-serif;
+	background:url(http://www.congresoderetail.pe/img/fondo-rayas-rojas2.png);color: gray
+}
+
+#link{
+	 color: gray
+}
+
+h3{
+	 color: gray;
+}
+
+#form{
+	 color: white;
+}
+
+#enviar{
+	color: blue; 
+	border-color: blue;
+}
+
+#borrar{
+	color: red; 
+	border-color: red;
+}
