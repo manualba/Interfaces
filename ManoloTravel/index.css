@@ -10,7 +10,7 @@ section {
     }
     
     .cabecera-barra {
-        font: 13px Arial, Helvetica, sans-serif;
+        font: 13px sans-serif;
     }
     
     .cabecera-barra .cabecera-separador {
@@ -18,11 +18,11 @@ section {
         text-align: center;
         margin: 0 auto;
     }
-    /* Logotipo */
+    /* Logo y parte superior */
     
     .cabecera-barra h1 {
         float: left;
-        font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+        font: normal 28px sans-serif;
         line-height: 40px;
         margin: 0;
     }
@@ -30,7 +30,7 @@ section {
     .cabecera-barra h1 span {
         color: lightblue;
     }
-    /* barra 1*/
+    /* Parte superior */
     
     .cabecera-barra .cabecera-barra-1 {
         background-color: #0f8fd9;
@@ -74,7 +74,7 @@ section {
         background-color: lightblue;
         padding: 8px 12px;
     }
-    /* Barra 2*/
+    /* Parte inferior */
     
     button {
         text-decoration: none;
@@ -90,9 +90,7 @@ section {
         text-decoration: none;
     }
     
-    .busqueda,
-    i,
-    button {
+    .busqueda,i,button {
         float: left;
     }
     
@@ -158,10 +156,7 @@ section {
         .cabecera-barra .cabecera-barra-2 {
             padding: 20px 0;
         }
-        .busqueda,
-        i,
-        button,
-        input[type=search] {
+        .busqueda,i,button,input[type=search] {
             float: none;
             margin: 0 0 12px;
         }
@@ -180,7 +175,7 @@ section {
             margin-top: 330px;
         }
     }
-    /*footer*/
+    /* Pie de pagina (footer) */
     
     footer {
         background-color:#698583;
@@ -197,7 +192,8 @@ section {
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    /*Contenido*/
+
+    /* Contenido de la pagina */
     
     div>a {
         text-decoration: none;
@@ -206,60 +202,51 @@ section {
     
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto auto;
+        grid-template-columns: auto;
         padding: 10px;
         color: #1992cf;
         grid-column-gap: 50px;
         grid-row-gap: 50px;
-        grid-template-alightblues: "grid-item-1 grid-item-2 grid-item-3" 
-                                   "grid-item-4 grid-item-5 grid-item-6"
-                                   "grid-item-7 grid-item-8 grid-item-9";
+        grid-template-areas: "grid-item-1 grid-item-2 grid-item-3" 
+                             "grid-item-4 grid-item-5 grid-item-6";
     }
     
     div[class^="grid-item"] {
-        padding: 20px;
-        font-size: 30px;
+        padding: 50px;
+        font-size: 20px;
         text-align: center;
     }
     
     .grid-item-1 {
-        grid-alightblue: grid-item-1;
+        grid-area: grid-item-1;
     }
     
     .grid-item-2 {
-        grid-alightblue: grid-item-2;
+        grid-area:  grid-item-2;
     }
     
     .grid-item-3 {
-        grid-alightblue: grid-item-3;
+        grid-area:  grid-item-3;
     }
     
     .grid-item-4 {
-        grid-alightblue: grid-item-4;
+        grid-area:  grid-item-4;
     }
     
     .grid-item-5 {
-        grid-alightblue: grid-item-5;
+        grid-area:  grid-item-5;
     }
     
     .grid-item-6 {
-        grid-alightblue: grid-item-6;
+        grid-area:  grid-item-6;
     }
-    
-    .grid-item-7 {
-        grid-alightblue: grid-item-7;
-    }
-    
-    .grid-item-8 {
-        grid-alightblue: grid-item-8;
-    }
-    
-    .grid-item-9 {
-        grid-alightblue: grid-item-9;
-    }
+   
     
     @media all and (max-width: 1100px) {
         .grid-container {
-            grid-template-alightblues: "grid-item-1 grid-item-1 grid-item-1" "grid-item-4 grid-item-4 grid-item-4" "grid-item-7 grid-item-7 grid-item-7" "grid-item-2 grid-item-2 grid-item-2" "grid-item-5 grid-item-5 grid-item-5" "grid-item-8 grid-item-8 grid-item-8" "grid-item-3 grid-item-3 grid-item-3" "grid-item-6 grid-item-6 grid-item-6" "grid-item-9 grid-item-9 grid-item-9";
+            grid-template-areas:  "grid-item-1 grid-item-1 grid-item-1" "grid-item-4 grid-item-4 grid-item-4"  
+                                       "grid-item-2 grid-item-2 grid-item-2" "grid-item-5 grid-item-5 grid-item-5" 
+                                       "grid-item-3 grid-item-3 grid-item-3" "grid-item-6 grid-item-6 grid-item-6";
         }
     }
+
