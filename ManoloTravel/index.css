@@ -33,7 +33,7 @@ section {
     /* barra 1*/
     
     .cabecera-barra .cabecera-barra-1 {
-        background-color: #292c2f;
+        background-color: #0f8fd9;
         box-shadow: 0 1px 1px #ccc;
         padding: 20px 40px;
         height: 80px;
@@ -42,12 +42,12 @@ section {
     }
     
     .cabecera-barra .cabecera-barra-1 a {
-        color: #ffffff;
+        color: white;
         text-decoration: none;
     }
     
     .cabecera-barra .cabecera-barra-1 nav {
-        font: 14px Arial, Helvetica, sans-serif;
+        font: 14px sans-serif;
         line-height: 40px;
         float: left;
         margin: 0 0 0 60px;
@@ -78,13 +78,13 @@ section {
     
     button {
         text-decoration: none;
-        font-family: arial;
+        font-family: serif;
         text-transform: uppercase;
         color: white;
         background-color: lightblue;
     }
     
-    button:hover {
+    button:hover{
         color: black;
         background-color: lightblue;
         text-decoration: none;
@@ -108,7 +108,7 @@ section {
     }
     
     .cabecera-barra .cabecera-barra-2 {
-        background-color: #ffffff;
+        background-color: white;
         box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.05);
         padding: 20px 40px;
     }
@@ -125,7 +125,7 @@ section {
     .cabecera-barra .cabecera-barra-2 h2,
     .cabecera-barra .cabecera-barra-2 nav a {
         display: inline-block;
-        color: #4e5359;
+        color: teal;
         text-decoration: none;
         padding-right: 15px;
     }
@@ -183,11 +183,11 @@ section {
     /*footer*/
     
     footer {
-        background-color: #292c2f;
-        box-shadow: 0 1px 1px #ccc;
-        padding: 20px 30px;
-        height: 100px;
-        color: #4e5359;
+        background-color:#698583;
+        box-shadow: 0 1px 1px blue;
+        padding: 20px 20px;
+        height: 60px;
+        color: white;
         box-sizing: border-box;
         bottom: 0%;
     }
@@ -202,14 +202,18 @@ section {
     div>a {
         text-decoration: none;
     }
+
     
     .grid-container {
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 10px;
+        color: #1992cf;
         grid-column-gap: 50px;
         grid-row-gap: 50px;
-        grid-template-alightblues: "grid-item-1 grid-item-2 grid-item-3" "grid-item-4 grid-item-5 grid-item-6" "grid-item-7 grid-item-8 grid-item-9";
+        grid-template-alightblues: "grid-item-1 grid-item-2 grid-item-3" 
+                                   "grid-item-4 grid-item-5 grid-item-6"
+                                   "grid-item-7 grid-item-8 grid-item-9";
     }
     
     div[class^="grid-item"] {
