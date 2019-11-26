@@ -9,30 +9,30 @@ section {
         left: 0%;
     }
     
-    .cabecera-barra {
+    .cabecera {
         font: 13px sans-serif;
     }
     
-    .cabecera-barra .cabecera-separador {
+    .cabecera .cabecera-separacion {
         max-width: 1200px;
         text-align: center;
         margin: 0 auto;
     }
     /* Logo y parte superior */
     
-    .cabecera-barra h1 {
+    .cabecera h1 {
         float: left;
         font: normal 28px sans-serif;
         line-height: 40px;
         margin: 0;
     }
     
-    .cabecera-barra h1 span {
+    .cabecera h1 span {
         color: lightblue;
     }
     /* Parte superior */
     
-    .cabecera-barra .cabecera-barra-1 {
+    .cabecera .cabecera1 {
         background-color: #0f8fd9;
         box-shadow: 0 1px 1px #ccc;
         padding: 20px 40px;
@@ -41,12 +41,12 @@ section {
         box-sizing: border-box;
     }
     
-    .cabecera-barra .cabecera-barra-1 a {
+    .cabecera .cabecera1 a {
         color: white;
         text-decoration: none;
     }
     
-    .cabecera-barra .cabecera-barra-1 nav {
+    .cabecera .cabecera1 nav {
         font: 14px sans-serif;
         line-height: 40px;
         float: left;
@@ -54,7 +54,7 @@ section {
         padding: 0;
     }
     
-    .cabecera-barra .cabecera-barra-1 nav a {
+    .cabecera .cabecera1 nav a {
         display: inline-block;
         padding: 0 10px;
         opacity: 0.9;
@@ -62,14 +62,14 @@ section {
         line-height: 1;
     }
     
-    .cabecera-barra .cabecera-barra-1 nav a:hover {
+    .cabecera .cabecera1 nav a:hover {
         opacity: 1;
         border-radius: 2px;
         background-color: lightblue;
         padding: 8px 12px;
     }
     
-    .cabecera-barra .cabecera-barra-1 nav a.activo {
+    .cabecera .cabecera1 nav a.activo {
         border-radius: 2px;
         background-color: lightblue;
         padding: 8px 12px;
@@ -100,18 +100,19 @@ section {
         -moz-appearance: none;
         -o-appearance: none;
         height: 30px;
-        width: 200px;
+        width: 300px;
+        padding: 10px;
         background: #CCC;
         float: left;
     }
     
-    .cabecera-barra .cabecera-barra-2 {
+    .cabecera .cabecera2 {
         background-color: white;
         box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.05);
         padding: 20px 40px;
     }
     
-    .cabecera-barra .cabecera-barra-2 nav {
+    .cabecera .cabecera2 nav {
         text-align: right;
         line-height: 20px;
         font-size: 16px;
@@ -120,8 +121,8 @@ section {
         white-space: nowrap;
     }
     
-    .cabecera-barra .cabecera-barra-2 h2,
-    .cabecera-barra .cabecera-barra-2 nav a {
+    .cabecera .cabecera2 h2,
+    .cabecera .cabecera2 nav a {
         display: inline-block;
         color: teal;
         text-decoration: none;
@@ -129,46 +130,46 @@ section {
     }
     
     @media all and (max-width: 800px) {
-        .cabecera-barra .cabecera-barra-2 nav {
+        .cabecera .cabecera2 nav {
             font-size: 14px;
         }
     }
     
     @media all and (max-width: 780px) {
-        .cabecera-barra .cabecera-barra-1 {
+        .cabecera .cabecera1 {
             padding: 20px 0;
         }
-        .cabecera-barra .cabecera-barra-1 h1 {
+        .cabecera .cabecera1 h1 {
             float: none;
             margin: -8px 0 2px;
             text-align: center;
             font-size: 24px;
             line-height: 1;
         }
-        .cabecera-barra .cabecera-barra-1 nav {
+        .cabecera .cabecera1 nav {
             margin: 0;
             float: none;
             font-size: 13px;
         }
-        .cabecera-barra .cabecera-barra-1 nav a.activo {
+        .cabecera .cabecera1 nav a.activo {
             padding: 5px 8px;
         }
-        .cabecera-barra .cabecera-barra-2 {
+        .cabecera .cabecera2 {
             padding: 20px 0;
         }
         .busqueda,i,button,input[type=search] {
             float: none;
             margin: 0 0 12px;
         }
-        .cabecera-barra .cabecera-barra-2 nav {
+        .cabecera .cabecera2 nav {
             text-align: center;
         }
-        .cabecera-barra .cabecera-barra-2 h2,
-        .cabecera-barra .cabecera-barra-2 nav a {
+        .cabecera .cabecera2 h2,
+        .cabecera .cabecera2 nav a {
             display: block;
             padding: 8px;
         }
-        .cabecera-barra .cabecera-barra-2 nav i.fa {
+        .cabecera .cabecera2 nav i.fa {
             margin-left: 0;
         }
         section {
