@@ -1,12 +1,3 @@
-
-
-body{
-	color:#1992cf;
-	text-align: left;
-}
-
-
-
 section {
         margin-top: 170px;
     }
@@ -39,8 +30,6 @@ section {
     .cabecera h1 span {
         color: lightblue;
     }
-
-
     /* Parte superior */
     
     .cabecera .cabecera1 {
@@ -102,7 +91,49 @@ section {
         text-decoration: none;
     }
     
-  
+    .busqueda,i,button {
+        float: left;
+    }
+    
+    input[type=search] {
+        appearance: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        height: 30px;
+        width: 300px;
+        background: #CCC;
+        float: left;
+    }
+    
+    .cabecera .cabecera2 {
+        background-color: white;
+        box-shadow: 1px 3px 3px 0 rgba(0, 0, 0, 0.05);
+        padding: 20px 40px;
+    }
+    
+    .cabecera .cabecera2 nav {
+        text-align: right;
+        line-height: 20px;
+        font-size: 16px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+    
+    .cabecera .cabecera2 h2,
+    .cabecera .cabecera2 nav a {
+        display: inline-block;
+        color: teal;
+        text-decoration: none;
+        padding-right: 15px;
+    }
+    
+    @media all and (max-width: 800px) {
+        .cabecera .cabecera2 nav {
+            font-size: 14px;
+        }
+    }
     
     @media all and (max-width: 780px) {
         .cabecera .cabecera1 {
@@ -130,7 +161,17 @@ section {
             float: none;
             margin: 0 0 12px;
         }
-       
+        .cabecera .cabecera2 nav {
+            text-align: center;
+        }
+        .cabecera .cabecera2 h2,
+        .cabecera .cabecera2 nav a {
+            display: block;
+            padding: 8px;
+        }
+        .cabecera .cabecera2 nav i.fa {
+            margin-left: 0;
+        }
         section {
             margin-top: 330px;
         }
@@ -172,7 +213,7 @@ section {
     }
     
     div[class^="grid-item"] {
-        padding: 40px;
+        padding: 30px;
         font-size: 20px;
         text-align: center;
     }

@@ -60,6 +60,7 @@ section {
         opacity: 0.9;
         text-decoration: none;
         line-height: 1;
+        transition: 0.5s;
     }
     
     .cabecera .cabecera1 nav a:hover {
@@ -212,7 +213,7 @@ section {
     }
     
     div[class^="grid-item"] {
-        padding: 50px;
+        padding: 40px;
         font-size: 20px;
         text-align: center;
     }
