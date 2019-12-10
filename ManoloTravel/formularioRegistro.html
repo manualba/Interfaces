@@ -17,7 +17,7 @@
                     <h1><a href="index.html">Manolo's<span>Travel</span></a></h1>
 
                     <nav>
-                        <div class="nav">
+                        <div class="nav" translate="yes">
                             <a href="index.html">Inicio</a>
                             <a href="vuelos.html">Vuelos</a>
                             <a href="index.html">Hoteles</a>
@@ -36,10 +36,10 @@
 		<br><br>
 		
 		<br><br>
-		<fieldset><legend><h1>Registro</h1></legend>
+		<fieldset translate="yes"><legend><h1>Registro</h1></legend>
 		<form>
 			  <br>
-			  <label id="form">Nombre de usuario:<br> <input type="text" name="usuario" size="40"></label>
+			  <label id="form">Nombre de usuario:<br> <input type="text" name="usuario" size="40" required autofocus></label>
 			  <br><br>
 			  <label id="form">E-mail:<br> <input type="text" name="email" size="40"></label>
 			  <br><br>
@@ -63,7 +63,7 @@
 		</form>
 		</fieldset>
 		<br>
-		<form action="index.html" method="get">
+		<form action="index.html" method="get" translate="yes">
 			<label>
 			  <input type="submit" name="enviar" id="registro" value="Registrarte">
 			</label>

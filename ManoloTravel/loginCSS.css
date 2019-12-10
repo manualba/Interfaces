@@ -27,7 +27,6 @@ section {
         text-align: center;
         margin: 0 auto;
     }
-    /* Logo y parte superior */
     
     .cabecera h1 {
         float: left;
@@ -41,7 +40,6 @@ section {
     }
 
 
-    /* Parte superior */
     
     .cabecera .cabecera1 {
         background-color: #0f8fd9;
@@ -86,7 +84,6 @@ section {
         background-color: lightblue;
         padding: 8px 12px;
     }
-    /* Parte inferior */
     
     button {
         text-decoration: none;
@@ -135,7 +132,6 @@ section {
             margin-top: 330px;
         }
     }
-    /* Pie de pagina (footer) */
     
     footer {
         background-color:#698583;
@@ -153,7 +149,6 @@ section {
         justify-content: space-between;
     }
 
-    /* Contenido de la pagina */
     
     div>a {
         text-decoration: none;

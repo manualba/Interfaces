@@ -27,7 +27,7 @@ section {
         text-align: center;
         margin: 0 auto;
     }
-    /* Logo y parte superior */
+
     
     .cabecera h1 {
         float: left;
@@ -40,8 +40,6 @@ section {
         color: lightblue;
     }
 
-
-    /* Parte superior */
     
     .cabecera .cabecera1 {
         background-color: #0f8fd9;
@@ -86,7 +84,18 @@ section {
         background-color: lightblue;
         padding: 8px 12px;
     }
-    /* Parte inferior */
+
+
+    fieldset{
+        background: rgba(255,255,255,1);
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(127,204,255,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(127,204,255,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(127,204,255,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(127,204,255,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(127,204,255,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(127,204,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7fccff', GradientType=1 );
+    }
     
     button {
         text-decoration: none;
@@ -135,7 +144,7 @@ section {
             margin-top: 330px;
         }
     }
-    /* Pie de pagina (footer) */
+
     
     footer {
         background-color:#698583;
@@ -153,7 +162,6 @@ section {
         justify-content: space-between;
     }
 
-    /* Contenido de la pagina */
     
     div>a {
         text-decoration: none;
