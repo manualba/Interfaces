@@ -134,9 +134,7 @@ section {
     }
     
     
-a{
-    color: white;
-}
+
     footer {
         background-color:#698583;
         box-shadow: 0 1px 1px blue;
@@ -154,8 +152,9 @@ a{
     }
 
     
-    div>a {
+    div >a {
         text-decoration: none;
+        color: white;
     }
 
     

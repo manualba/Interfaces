@@ -165,6 +165,8 @@ section {
     
     div>a {
         text-decoration: none;
+        color: white;
+
     }
 
     
@@ -219,6 +221,3 @@ section {
     }
 
 
-a{
-    color: white;
-}
